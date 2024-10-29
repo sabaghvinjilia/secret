@@ -1,0 +1,7 @@
+
+
+<app-users (parentFunction)="parentFunction($event)"></app-users>
+<br>
+
+<h1>Data from child component:</h1>
+<h1 *ngFor="let user of readData">{{user.name}}</h1>
